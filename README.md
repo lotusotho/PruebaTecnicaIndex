@@ -1,10 +1,10 @@
 # Prueba Técnica Full Stack Index - Alejandro Ramos Casado
 
-## Para poder probar el proyecto use:
+## Para probar el proyecto use:
 ### Para la instalación:
 `pnpm i`
 
-### Para una demostranción en vivo:
+### Para una demostración en vivo:
 `pnpm run dev`
 
 ---
