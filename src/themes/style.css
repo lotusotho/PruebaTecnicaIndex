@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-100 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: inter;
+}
+
+input {
+    border: 2px, solid, #949494;
+    display: flex;
+    padding: 13px;
+    border-radius: 4px;
+    width: 250px;
+}
+
+.inputField {
+    margin-bottom: 30px;
+}
+
+input:hover {
+    border-color: #767676;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #543fd3;
+    outline: none;
+    caret-color: #543fd3;
+    color: #543fd3;
+}
+
+.errorType {
+    color: red;
+}
+
+.mainCard {
+    border: 2px, solid, #949494;
+    background-color: #e9e9e9;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.cardField {
+    display: flexbox;
+    flex-flow: column;
+}
+
+.cardField>h2 {
+    border: 2px, solid, #949494;
+    padding: 20px;
+    border-radius: 4px;
+}
